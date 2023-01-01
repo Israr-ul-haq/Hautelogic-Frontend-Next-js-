@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# SumrushBot-SA
+User-agent: SumrushBot-SA
+
+# Host
+Host: https://www.hautelogic.net/
+
+# Sitemaps
+Sitemap: https://www.hautelogic.net/static-sitemap.xml
+Sitemap: https://www.hautelogic.net/sitemap.xml

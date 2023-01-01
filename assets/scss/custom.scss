@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "arboria_book";
+  src: URL("../fonts/arboria/Arboria-Book.ttf") format("truetype");
+}
+@font-face {
+  font-family: "arboria_bold";
+  src: URL("../fonts/arboria/Arboria-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "arboria_medium";
+  src: URL("../fonts/arboria/Arboria-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "arboria_light";
+  src: URL("../fonts/arboria/Arboria-Light.ttf") format("truetype");
+}
+
+.arboria_book {
+  font-family: "arboria_book";
+  font-weight: 400;
+}
+
+.arboria_bold {
+  font-family: "arboria_bold";
+  font-weight: 700;
+}
+
+.arboria_medium {
+  font-family: "arboria_medium";
+  font-weight: 500;
+}
+.arboria_light {
+  font-family: "arboria_light";
+  font-weight: 300;
+}
+
+$theme-colors: (
+  "primary": #000,
+  "secondary": #ff4136,
+  "mineShaft": #2e2e2e,
+  "alabaster": #f8f8f8,
+  "aquaBlue": #f2f6f8,
+  "pickledBluewood": #334f5c,
+  "ebonyClay": #1f2e33,
+  "black": #000000,
+  "gray": #8d8d8d,
+  "java": #11b4b4,
+  "white": #ffffff,
+  bluenew: #13102c,
+);
+$spacers: (
+  0: 0px,
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+  10: 10px,
+  15: 15px,
+  20: 20px,
+  25: 25px,
+  30: 30px,
+  35: 35px,
+  40: 40px,
+  45: 45px,
+  50: 50px,
+  55: 55px,
+  60: 60px,
+  65: 65px,
+  70: 70px,
+  80: 80px,
+  85: 85px,
+  90: 90px,
+  100: 100px,
+  110: 110px,
+  115: 115px,
+  120: 120px,
+  130: 130px,
+  145: 145px,
+  150: 150px,
+  160: 160px,
+  170: 170px,
+);
+
+$font-sizes: (
+  14: 14px,
+  15: 15px,
+  18: 18px,
+  20: 20px,
+  24: 24px,
+  26: 26px,
+  28: 28px,
+  40: 40px,
+  45: 45px,
+  55: 55px,
+  60: 60px,
+);
+
+$box-shadow: 15px 15px 32px 0 rgba(#000000, 0.039);
+
+$border-radius: 12px;
+$border-radius-sm: 4px;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";

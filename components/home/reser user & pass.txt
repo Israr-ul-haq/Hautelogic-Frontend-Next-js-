@@ -1,0 +1,3 @@
+npm run strapi admin:reset-user-password --email=existing@user.com --password=NewPassword
+
+http://hautelogicdashboard.jinnbyte-staging.com
